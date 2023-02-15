@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: rgb(57, 56, 56);
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5rem;
+
+}
+
+body {
+    padding: 3rem 3.5rem;
+    background: linear-gradient(rgb(180, 177, 177), rgb(236, 205, 210));
+}
+
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    padding: 0.75rem 0;
+    margin-bottom: 2rem;
+
+}
+
+h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: salmon;
+    margin-top: .7rem;
+    
+}
+
+h4 {
+    margin-top: .6rem;
+    font-size: 1rem;
+    color:  rgb(103, 100, 100);
+}
+
+p {
+    line-height: 1.5;
+    color: black;
+}
+
+section + section {
+    margin-top: 2rem;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    color: rgb(82, 143, 230);
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 9999px;
+    width: 15rem;
+    height: 15rem;
+}
+
+.profile p {
+    color: rgb(139, 137, 137);
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.contact ul {
+    margin-top: -2rem;
+    
+}
+
+.contact li {
+    text-align: right;
+    padding: 1rem;
+    border-bottom: 1px solid #888;
+    color: rgb(120, 118, 118);
+    font-size: 1rem;
+}
+
+.skills > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.bullets > li {
+    list-style: disc;
+}
+
+.socials > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.timeline .event + .event {
+    padding-top: 1rem;
+}
+
+.timeline .event {
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+}
+
+.timeline .content {
+    border-left: 1px solid rgb(107, 106, 106);
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.projects > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.content > h3 + p {
+    margin-bottom: 1rem;
+    color: rgb(131, 129, 129);
+
+}
+
+.resume-page {
+    display: grid;
+    grid-template-columns: 45% 1fr;
+    grid-gap: 4rem;
+    background-color: whitesmoke;
+    padding: 2rem;
+    max-width: 1050px;
+    margin: auto;
+}
+
+.progress-bar{
+    width: 90%;
+    height: .4rem;
+    background-color: #888;
+    position: relative;
+    border-radius: 12px;
+}
+
+.progress {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: rgb(246, 150, 139);
+}
+
+.html-progress {
+    width: 90%;
+}
+
+.css-progress {
+    width: 85%;
+}
+
+.bs-progress {
+    width: 30%;
+}
+
+.js-progress {
+    width: 20%;
+}
+
+.cpp-progress {
+    width: 50%;
+}
+
+.java-progress {
+    width: 50%;
+}
+
+.dsa-progress {
+    width: 30%;
+}
+
+.aps-progress {
+    width: 75%;
+}
+
+.art-progress {
+    width: 90%;
+}
+
+
