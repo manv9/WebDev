@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: rgb(57, 56, 56);
+    line-height: 1.5rem;
+
+}
+
+body {
+    padding: 3rem 3.5rem;
+    background: linear-gradient(rgb(180, 177, 177), rgb(236, 205, 210));
+    
+}
+
+.resume-page {
+    background-color: whitesmoke;
+    padding: 2rem;
+    max-width: 1050px;
+    margin: auto;
+}
+
+.twocol{
+    padding-right: 2rem;
+}
+
+.twocol2{
+    padding-left: 2rem;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300 bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.profile > p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(139, 137, 137);
+    margin-bottom: 1rem;
+    font-size: 1.35rem;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    padding: 0.75rem 0;
+    margin-bottom: 2rem;
+
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 700 lighter;
+    text-transform: uppercase;
+    color: salmon;
+    margin-top: .7rem;
+    
+}
+
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: .6rem;
+    font-size: 1.03rem;
+    color:  rgb(103, 100, 100);
+}
+
+h1, h3, h4{
+    margin-bottom: 0;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: black;
+    margin-bottom: 0;
+}
+
+section + section {
+    margin-top: 2rem;
+}
+
+
+
+a {
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: rgb(82, 143, 230);
+    
+}
+
+ul {
+    list-style: none;
+    padding-left: 0rem;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 9999px;
+    width: 13rem;
+    height: 13rem;
+}
+
+.contact ul {
+    margin-top: -2rem;
+    
+}
+
+.contact li {
+    text-align: right;
+    padding: 1rem;
+    border-bottom: 1px solid #888;
+    color: rgb(120, 118, 118);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* .skills > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+} */
+
+.bullets > li {
+    list-style: disc;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.socials > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.timeline .event + .event {
+    padding-top: 1rem;
+}
+
+.timeline .event {
+    font-family: 'Josefin Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+}
+
+.timeline .content {
+    border-left: 1px solid rgb(107, 106, 106);
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.duration{
+    font-weight: 300;
+}
+
+/* .projects > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+} */
+
+.links{
+    padding-right: 3rem;
+}
+
+.content > h3 + p {
+    margin-bottom: 1rem;
+    color: rgb(131, 129, 129);
+
+}
+
+
+
+.progress-bar{
+    width: 90%;
+    height: .4rem;
+    background-color: #888;
+    position: relative;
+    border-radius: 12px;
+}
+
+.progress {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: rgb(246, 150, 139);
+}
+
+.html-progress {
+    width: 90%;
+}
+
+.css-progress {
+    width: 85%;
+}
+
+.bs-progress {
+    width: 75%;
+}
+
+.js-progress {
+    width: 20%;
+}
+
+.cpp-progress {
+    width: 50%;
+}
+
+.java-progress {
+    width: 50%;
+}
+
+.dsa-progress {
+    width: 30%;
+}
+
+.aps-progress {
+    width: 75%;
+}
+
+.art-progress {
+    width: 90%;
+}
+
+@media (max-width:1028px){
+    body {
+        padding: 2rem 2rem;
+        background: linear-gradient(rgb(180, 177, 177), rgb(236, 205, 210));
+        
+    }
+}
+
