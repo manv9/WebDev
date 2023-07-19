@@ -16,8 +16,13 @@ async function checkWeather(city){
 
         document.querySelector(".city").innerHTML = data.name;
         document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C";
-        document.querySelector(".humidity").innerHTML = Math.round(data.main.humidity) + "%";
+        document.querySelector(".humidity").innerHTML = Math.round(data.main.humidity) + " %";
         document.querySelector(".wind").innerHTML = Math.round(data.wind.speed) + " KM/H";
+        document.querySelector(".feels-like").innerHTML = Math.round(data.main.feels_like) + "°C";
+        document.querySelector(".visibility").innerHTML = Math.round(data.visibility) + " m";
+        document.querySelector(".Min-Temp").innerHTML = Math.round(data.main.temp_min) + "°C";
+        document.querySelector(".Max-Temp").innerHTML = Math.round(data.main.temp_max) + "°C";
+
     
         if(data.weather[0].main == "Clouds"){
             weatherIcon.src = "images/clouds.png";

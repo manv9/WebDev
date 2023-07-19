@@ -13,7 +13,7 @@ body {
     width: 90%;
     max-width: 470px;
     color: #fff;
-    margin: 100px auto 0;
+    margin: 70px auto 10px;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -84,12 +84,16 @@ body {
     text-align: left;
 }
 
+.col p{
+    margin-bottom: 7px;
+}
+
 .col img{
     width: 40px;
     margin-right: 10px;
 }
 
-.humidity, .wind{
+.humidity, .wind, .feels-like, .visibility, .Min-Temp, .Max-Temp{
     font-size: 28px;
     margin-top: -6px;
 }
@@ -104,4 +108,8 @@ body {
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+
+.feelscontrast, .visi, .min, .max{
+    filter: invert(100%);
 }
